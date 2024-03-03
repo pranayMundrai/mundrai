@@ -1,0 +1,51 @@
+# Data Analysis Tool
+
+This project is a web-based data analysis tool that allows users to perform computations on data and visualize it using plots.
+
+
+## Features
+
+- **Compute Operations on Data:** Users can compute minimum, maximum, or sum operations on specified columns of uploaded data.
+- **Plot Data:** Users can visualize data by plotting specified columns on a scatter plot.
+
+## Dependencies
+
+- Bootstrap 4.5.2: For styling the web interface.
+- jQuery 3.5.1: JavaScript library for DOM manipulation.
+- Plotly: JavaScript graphing library for creating interactive plots.
+
+## Installation
+
+1. Clone the repository:
+
+    ```
+    git clone https://github.com/pranaymundrai/data-analysis-tool.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```
+    cd data-analysis-tool
+    ```
+
+3. Open the `index.html` file in your web browser.
+
+## Usage
+
+1. **Compute Operation on Data:**
+
+    - Enter the data name, column name, and select the operation (minimum, maximum, or sum).
+    - Click on the "Compute" button to see the result.
+
+2. **Plot Data:**
+
+    - Enter the data name, X column name, and Y column name.
+    - Click on the "Plot" button to generate the scatter plot.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
